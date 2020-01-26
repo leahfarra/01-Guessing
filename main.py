@@ -17,11 +17,11 @@ while not quit:
         else:
             number = int(number)
             count = count + 1
-    print("Sorry, you didn't get it right")
-        if number > random_number:
-            print("Too high!")
-        elif number < random_number:
-            print("Too low!")
+            print("Sorry, you didn't get it right")
+            if number > random_number:
+                print("Too high!")
+            elif number < random_number:
+                print("Too low!")
     print("Good job!")
     print("You guessed it in {} tries!".format(count))
     play_again = input("\nWould you like to play again (yes or no)? ")
