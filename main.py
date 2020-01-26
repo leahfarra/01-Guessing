@@ -15,8 +15,8 @@ while not quit:
         if not number.isdigit():
             print("Please guess a number!")
         else:
-        number = int(number)
-        count = count + 1
+            number = int(number)
+            count = count + 1
     print("Sorry, you didn't get it right")
         if number > random_number:
             print("Too high!")
@@ -30,3 +30,5 @@ while not quit:
         quit = False
     else:
          quit = True
+
+print("\n\nThanks for playing! See you later!")
